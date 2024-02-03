@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.toast-position {
+    top: 0px !important;
+    margin-top: 0px;
+}
+
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+
+/* banner-frame/pop-up */
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+    display: none !important;
+}
+
+/* extended footer bottom styles */
+.thinFooter {
+    visibility: hidden;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh; /* Make sure the container takes at least the full viewport height */
+}
+
+/* fixing dropdowm for mobile */
+.alignment {
+    flex-direction: row !important;
+}
+
+/* YourComponent.module.css */
+
+.hiringBox {
+    display: inline-block;
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+    background-color: rgb(26, 87, 236);
+    color: white;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    font-weight: 500;
+    border-radius: 10px; /* Apply curved corners */
+}
+
+/* rtl-styles.css */
+
+.rtl .horizontal-gap {
+    margin-left: 50px; /* Adjust the spacing value as needed */
+}
+
+/* rtl-styles.css */
+.rtl .adjust-position {
+    margin-left: 100px; /* Adjust the spacing value as needed */
+}
+/* Always show scrollbars in Safari */
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Apply blur to the entire body except for elements with class "modal-content" */
+/* Apply blur to the entire body except for elements with class "modal-content" and "abc" */
+/* Create a screen overlay when the modal is open */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    z-index: 9999; /* Ensure it's on top of everything */
+    display: none;
+}
+
+.chakra-portal {
+    z-index: 10;
+}
+
+/* Apply blur to the entire body when the modal is open */
+body.modal-opened > * {
+    filter: blur(3px);
+}
+.my-custom-bg {
+    background-image: url('../app/[lng]/about/assets/background.png');
+}
+
+/* Add at inputgroup releasenotesmanager flex-direction column on mobile*/
+.chakra-input__group.release__input {
+    @media (max-width: 640px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

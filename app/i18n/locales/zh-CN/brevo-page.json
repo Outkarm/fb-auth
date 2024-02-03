@@ -1,0 +1,18 @@
+{
+  "joinbeta": "加入 Beta 社区",
+  "subscribe": "订阅我们的通讯，获取提高生产力和实现目标的机会",
+  "letusknow": "告诉我们如何联系您以及您的地址",
+  "email": "电子邮件",
+  "format": "请遵循格式 abc@xyz.com",
+  "firstname": "名字",
+  "lastname": "姓氏",
+  "agreement": "我同意接收您的通讯并同意",
+  "dataprivacy": "数据隐私",
+  "statement": "声明",
+  "privacy": "您的隐私对我们很重要。我们不会发送垃圾邮件，您可以随时通过我们通讯中的链接取消订阅",
+  "clicking": "我们使用 Brevo 作为我们的营销平台。通过点击下面的按钮发送此表格，您承认您提供的信息将根据其条款传输到 Brevo 进行处理。",
+  "terms": "使用条款",
+  "subscribes": "订阅",
+  "subscribe-success": "您的订阅成功。",
+  "subscribe-fail": "无法保存您的订阅。请重试。"
+}

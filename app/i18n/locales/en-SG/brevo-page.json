@@ -1,0 +1,18 @@
+{
+    "joinbeta":"Join the Betr Beta Community",
+    "subscribe":"Subscribe to our newsletter to stay updated on opportunities to improve productivity and achieve your goals",
+    "letusknow":"Let us know how to reach and address you",
+    "email":"EMAIL",
+    "format":"Please follow the format abc@xyz.com",
+    "firstname":"FIRSTNAME",
+    "lastname":"LASTNAME",
+    "agreement":"I agree to receive your newsletters and accept the",
+    "dataprivacy":"data privacy",
+    "statement":"statement",
+    "privacy":"Your privacy is important to us. We won't spam you and you can unsubscribe any time using the link in our newsletter.",
+    "clicking":" We use Brevo as our marketing platform. By Clicking below to submit this form, you acknowledge that the information you provided will be transferred to Brevo for processing in accordance with their",
+    "terms":"terms of use",
+    "subscribes":"SUBSCRIBE",
+    "subscribe-success": "Your subscription has been successful.",
+    "subscribe-fail": "Your subscription could not be saved. Please try again."
+}
